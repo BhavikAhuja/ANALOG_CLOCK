@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(68, 59, 59);
+}
+#clock{
+    position: relative;
+    background-color: aliceblue;
+    height: 40vw;
+    width: 40vw;
+    background: url("x.jpg") no-repeat;
+    background-size: 100%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+#hrs, #min, #sec{
+    position: absolute;
+    /*background: black;*/
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hrs{
+    
+    top: 26%;
+  left: 49.65%;
+    background: pink;
+  width: 8px;
+  height: 81px;
+  
+}
+#min{
+    
+    top: 16%;
+    left: 49.65%;
+    width: 10px;
+    height: 131px;
+    opacity: 0.8;
+    background: yellow;
+  
+}
+
+#sec{
+    top: 15%;
+  left: 49.9%;
+  width: 5px;
+  height: 138px;
+  opacity: 0.8;
+  background: red;
+}
